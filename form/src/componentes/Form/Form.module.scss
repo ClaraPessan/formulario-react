@@ -1,0 +1,63 @@
+.aviso {
+    margin-top: 11vh;
+    background-color: var(--roxo);
+    color: var(--branco);
+    padding: 16px 0;
+    text-align: center;
+    font-size: .80rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 1px rgba(0, 0, 0, 0.189);
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    padding: 40px;
+    gap: 20px;
+    width: 100%;
+    border-radius: 9px;
+    box-shadow: 0 8px 1px rgba(0, 0, 0, 0.189);
+
+    p {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.60rem;
+        color: var(--salmao);
+        margin-top: -10px;
+    }
+}
+
+.inputError {
+    border: 2px solid var(--salmao);
+    background-image: url(../../../public/assets/images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 20px;
+}
+
+.avisoTermos {
+    font-size: 10px;
+    text-align: center;
+    color: var(--cinza-claro);
+
+    strong {
+        color: var(--salmao);
+    }
+}
+
+@media (max-width: 980px) {
+    .aviso {
+        margin-top: 2vh;
+        font-size: 0.70rem;
+    }
+
+    .formulario {
+        margin-bottom: 13vh;
+    }
+    section {
+        width: 70%;
+    }
+}

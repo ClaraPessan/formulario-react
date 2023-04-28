@@ -1,0 +1,26 @@
+.mensagem {
+    color: var(--branco);
+    margin-top: 35vh;
+    width: 36%;
+
+    h1{ 
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+
+    p {
+        line-height: 1.5rem;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 980px) {
+    .mensagem {
+        width: 100%;
+        margin: 13vh 5vh 0 5vh;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}

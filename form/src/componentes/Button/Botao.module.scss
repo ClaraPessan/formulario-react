@@ -1,0 +1,17 @@
+button {
+    background-color: var(--verde-claro);
+    border: none;
+    padding: 15px;
+    color: var(--branco);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    box-shadow: 0 3px 2px hsl(154, 57%, 41%);
+    width: 100%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--verde-super-claro);
+    }
+}
